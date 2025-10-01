@@ -44,3 +44,19 @@ cybersecurity-brute-force-project/
 ├── technical_report.md
 ├── mitigation_strategies.md
 └── lessons_learned.md
+
+
+# Execução Rápida
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/cybersecurity-brute-force-project.git
+
+# Navegue para o diretório
+cd cybersecurity-brute-force-project
+
+# Torne os scripts executáveis
+chmod +x scripts/*.sh
+
+# Execute a varredura de enumeração
+./scripts/enumeration_scan.sh
